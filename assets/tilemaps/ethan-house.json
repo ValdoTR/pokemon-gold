@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"ethan-house.json"
+         "target":"..\/ethan-house.json"
         }
     },
  "height":6,
@@ -52,8 +52,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":47.7631578947368,
-                 "y":63.5526315789474
+                 "x":56.0526736842105,
+                 "y":54.8683894736842
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -71,7 +71,7 @@
         {
          "columns":61,
          "firstgid":1,
-         "image":"Pok\u00e9mon Gold\/assets\/maps\/tileset-day.png",
+         "image":"..\/..\/ASSETS\/Pok\u00e9mon Gold\/maps\/tileset-day.png",
          "imageheight":1360,
          "imagewidth":976,
          "margin":0,
