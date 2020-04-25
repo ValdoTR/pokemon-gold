@@ -2,8 +2,6 @@
 
 # Pokemon Gold - Web remake
 
-![Screenshot](https://gamefabrique.com/storage/screenshots/gbc/pokemon-gold-version-07.png)
-
 This is the Game Boy game [Pokemon Gold](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver "Wikipedia") from the 2000s remade into a web version using [Phaser](https://phaser.io) and a bunch of other tools that help creating the assets, like: [Tiled](https://www.mapeditor.org), [TexturePacker](https://www.codeandweb.com/texturepacker) or [Gimp](https://www.gimp.org).
 
 ## Work in progress
