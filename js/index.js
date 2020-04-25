@@ -1,4 +1,5 @@
-import PlatformerScene from "./platformer-scene.js";
+import EthanBedroomScene from "./scenes/ethan-bedroom-scene.js";
+import EthanLivingRoomScene from "./scenes/ethan-living-room-scene.js";
 
 const config = {
   type: Phaser.AUTO,
@@ -11,10 +12,15 @@ const config = {
   physics: {
     default: "arcade",
     arcade: {
-      gravity: { y: 0 } // Top down game, so no gravity
+      gravity: { y: 0 },
+      debug: true
     }
   },
-  scene: PlatformerScene
+  scene: [
+    EthanBedroomScene,
+    EthanLivingRoomScene
+  ]
 };
 
 const game = new Phaser.Game(config);
+game.scene.start('EthanBedroomScene');

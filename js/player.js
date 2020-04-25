@@ -45,7 +45,7 @@ export default class Player {
     update() {
         const keys = this.keys;
         const sprite = this.sprite;
-        const speed = 40;
+        const speed = 50; // speed must be 4 tile / sec
         const prevVelocity = sprite.body.velocity.clone();
 
         // Stop any previous movement from the last frame
